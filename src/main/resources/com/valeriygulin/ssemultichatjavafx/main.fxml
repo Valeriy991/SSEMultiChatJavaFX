@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="520.0" prefWidth="600.0" stylesheets="@bootstrap3.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.valeriygulin.ssemultichatjavafx.controllers.MainController">
+    <children>
+        <Button layoutX="175.0" layoutY="309.0" mnemonicParsing="false" onAction="#buttonSendMessage" prefHeight="26.0" prefWidth="250.0" text="Send message" />
+        <TextField fx:id="textFieldYourMessage" layoutX="50.0" layoutY="264.0" prefHeight="59.0" prefWidth="522.0" />
+        <Label layoutX="50.0" layoutY="14.0" text="Users chat" />
+        <Label layoutX="50.0" layoutY="239.0" text="Your message" />
+        <ListView fx:id="listViewUsersChat" layoutX="50.0" layoutY="32.0" prefHeight="200.0" prefWidth="522.0" />
+        <ListView fx:id="listViewUsersOnline" layoutX="50.0" layoutY="368.0" prefHeight="96.0" prefWidth="522.0" />
+        <Label layoutX="50.0" layoutY="340.0" text="Users Online" />
+      <Button layoutX="521.0" layoutY="481.0" mnemonicParsing="false" onAction="#buttonLogOut" text="logOut" />
+    </children>
+</AnchorPane>

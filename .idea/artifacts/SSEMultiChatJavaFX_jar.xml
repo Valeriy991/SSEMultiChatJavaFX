@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact name="SSEMultiChatJavaFX:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SSEMultiChatJavaFX_jar</output-path>
+    <root id="root">
+      <element id="archive" name="SSEMultiChatJavaFX.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="SSEMultiChatJavaFX" />
+      </element>
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:19" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:win:19" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.14.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:19" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:win:19" />
+      <element id="library" level="project" name="Maven: com.launchdarkly:okhttp-eventsource:1.10.0" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:19" />
+      <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.13.0" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.22" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:19" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:win:19" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:win:19" />
+      <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.8.1" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.14.1" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.14.1" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="330.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" stylesheets="@bootstrap3.css"
+            fx:controller="com.valeriygulin.ssemultichatjavafx.controllers.AuthentificationController">
+    <children>
+        <Label layoutX="65.0" layoutY="29.0" text="Login"/>
+        <Label layoutX="65.0" layoutY="110.0" text="Password"/>
+        <Button layoutX="65.0" layoutY="267.0" mnemonicParsing="false" onAction="#buttonRegistration"
+                prefHeight="26.0" prefWidth="150.0" styleClass="primary" text="Registration"/>
+        <Button layoutX="65.0" layoutY="193.0" mnemonicParsing="false" onAction="#buttonLogIn"
+                prefHeight="26.0" prefWidth="150.0" styleClass="primary" text="LogIn"/>
+        <TextField fx:id="textFieldLogin" layoutX="65.0" layoutY="57.0"/>
+        <TextField fx:id="textFieldPassword" layoutX="65.0" layoutY="138.0" prefHeight="26.0" prefWidth="150.0"/>
+        <CheckBox fx:id="checkBox" layoutX="86.0" layoutY="231.0" mnemonicParsing="false"
+                  onAction="#togglevisiblePassword" text="Show password"/>
+        <PasswordField fx:id="passwordField" layoutX="64.0" layoutY="138.0" prefHeight="26.0" prefWidth="150.0"/>
+
+
+    </children>
+</AnchorPane>

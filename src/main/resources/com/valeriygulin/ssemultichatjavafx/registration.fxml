@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="280.0" prefWidth="280.0" stylesheets="@bootstrap3.css"
+            xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.valeriygulin.ssemultichatjavafx.controllers.RegistrationController">
+    <children>
+        <Label layoutX="60.0" layoutY="43.0" text="Login"/>
+        <Label layoutX="60.0" layoutY="120.0" text="Password"/>
+        <Button layoutX="95.0" layoutY="213.0" mnemonicParsing="false" styleClass="primary"
+                onAction="#buttonRegistration" text="Registration"/>
+        <TextField fx:id="textFieldLogin" layoutX="60.0" layoutY="79.0"/>
+        <TextField fx:id="textFieldPassword" layoutX="60.0" layoutY="161.0"/>
+    </children>
+</AnchorPane>
